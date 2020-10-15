@@ -30,6 +30,7 @@ class OrderItem(models.Model):
                                 on_delete=models.CASCADE)
     price = models.DecimalField(max_digits=10, decimal_places=2)
     quantity = models.PositiveBigIntegerField(default=1)
+    braintree_id = models.CharField(max_length=150, blank=True)
 
     def __str__(self):
         return str(self.id)
