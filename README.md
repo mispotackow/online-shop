@@ -13,3 +13,8 @@ This project has implemented:
 • Export orders to CSV files    
 • Create custom views for the administration site   
 • Generate PDF invoices dynamically     
+• Creating a coupon system to apply discounts   
+• Adding internationalization   
+• Using Rosetta to manage translations  
+• Translating models using django-parler    
+• Building a product recommendation engine  

@@ -10,6 +10,10 @@ celery = "==4.4.2"
 flower = "*"
 braintree = "*"
 weasyprint = "*"
+django-rosetta = "*"
+django-parler = "*"
+django-localflavor = "*"
+redis = "*"
 
 [dev-packages]
 
